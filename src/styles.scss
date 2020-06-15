@@ -16,7 +16,6 @@ body {
 }
 
 .wrapper {
-    max-width: 1440px;
     margin: 0 auto;
     width: 80%;
     max-width: 375px;
@@ -26,7 +25,7 @@ body {
     }
 
     @include responsive("large") {
-        max-width: 1440px;
+        max-width: 976px;
     }
 }
 
@@ -39,7 +38,6 @@ body {
         font-size: 3.2rem;
         font-weight: 900;
         line-height: 3.8rem;
-        list-style-position: inside;
     }
 }
 
@@ -133,6 +131,10 @@ body {
     ol {
         display: flex;
         justify-content: space-evenly;
+
+        @include responsive("medium") {
+            justify-content: space-evenly;
+        }
     }
     &__item {
         a {
@@ -151,6 +153,7 @@ body {
         list-style-type: none;
         position: sticky;
         top: 50%;
+        margin-left: -25%;
 
         &__header {
             font-size: 2rem;
