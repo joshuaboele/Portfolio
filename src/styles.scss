@@ -1,0 +1,174 @@
+@import "mixins.scss";
+
+$color--cyan: #77ffdd;
+$color--dark-blue: #001f3f;
+
+html {
+    // rem reset
+    font-size: 62.5%;
+}
+
+body {
+    background: $color--dark-blue;
+    font-family: "Lato", sans-serif;
+    color: $color--cyan;
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 375px;
+
+    @include responsive("small") {
+        max-width: 768px;
+    }
+
+    @include responsive("large") {
+        max-width: 1440px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    @include responsive("medium") {
+        padding: 40px;
+        font-size: 3.2rem;
+        font-weight: 900;
+        line-height: 3.8rem;
+        list-style-position: inside;
+    }
+}
+
+.content {
+    margin: 0 auto;
+    @include responsive("large") {
+        max-width: 976px;
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 3.4rem;
+        font-weight: 400;
+
+        @include responsive("large") {
+            font-size: 5rem;
+            line-height: 60px;
+            margin-bottom: 135px;
+        }
+    }
+}
+
+.project-list {
+    list-style-type: none;
+    padding: 0;
+
+    &__item {
+        margin-bottom: 50px;
+        @include responsive("large") {
+            &:nth-child(n + 2) {
+                display: none;
+            }
+        }
+    }
+}
+
+.project {
+    position: relative;
+
+    &__video {
+        object-fit: cover;
+        width: 100%;
+        height: 180px;
+
+        @include responsive("large") {
+            width: 100%;
+            height: 360px;
+        }
+    }
+    &__video--title {
+        position: absolute;
+        z-index: 2;
+        margin: -35px 0 0 -5px;
+        font-size: 4rem;
+
+        @include responsive("large") {
+            font-size: 14rem;
+            margin: -110px 0 0 -10px;
+        }
+    }
+    &__video--overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #000;
+        opacity: 0.4;
+        height: 180px;
+        width: 100%;
+
+        @include responsive("large") {
+            height: 360px;
+        }
+    }
+    &__description {
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 600;
+        margin-top: 50px;
+        font-size: 1.8rem;
+        line-height: 2rem;
+
+        @include responsive("large") {
+            margin-top: 100px;
+            font-size: 5rem;
+            line-height: 6rem;
+        }
+    }
+}
+
+.navigation {
+    ol {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    &__item {
+        a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 600;
+        }
+    }
+}
+
+.project-navigation {
+    display: none;
+
+    @include responsive("large") {
+        display: block;
+        list-style-type: none;
+        position: sticky;
+        top: 50%;
+
+        &__header {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+    &__button {
+        color: $color--cyan;
+        padding: 0;
+        border: 0;
+        background: none;
+        font-weight: 300;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+
+        &:hover {
+            color: #3db496;
+            cursor: pointer;
+        }
+    }
+}

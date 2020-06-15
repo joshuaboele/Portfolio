@@ -1,0 +1,16 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "serve",
+        "watch-sass": "sass --watch --poll src/styles.scss styles.css"
+    },
+    "author": "Joshua Boele",
+    "license": "ISC",
+    "dependencies": {
+        "serve": "^11.3.1"
+    }
+}

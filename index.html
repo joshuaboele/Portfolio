@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>— Portfolio</title>
+        <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav class="navigation">
+                <ol>
+                    <li class="navigation__item">
+                        <a href="bikes">GitHub</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="bikes/bmx">Resume</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="bikes/bmx">Resume</a>
+                    </li>
+                </ol>
+            </nav>
+
+            <!-- Tablet or bigger navigation -->
+
+            <ul class="project-navigation">
+                <span class="project-navigation__header">Navigation</span>
+                <li>
+                    <button data-index="0" class="project-navigation__button">
+                        Boijmans
+                    </button>
+                </li>
+                <li>
+                    <button data-index="1" class="project-navigation__button">
+                        Beeld & Geluid
+                    </button>
+                </li>
+                <li>
+                    <button data-index="2" class="project-navigation__button">
+                        Projec 3
+                    </button>
+                </li>
+            </ul>
+            <div class="content">
+                <h2 class="content__title">Projects</h2>
+
+                <!-- Mobile display of projects, due to desktop nav not being UX-friendly on mobile -->
+
+                <ul class="project-list">
+                    <li class="project-list__item">
+                        <div class="project">
+                            <video
+                                loop
+                                autoplay
+                                class="project__video"
+                                src="media/boijmans.mp4"
+                            ></video>
+                            <h1 class="project__video--title">Boijmans</h1>
+                            <div class="project__video--overlay"></div>
+                            <p class="project__description">
+                                Boijmans is a visual arts museum based in
+                                Rotterdam.
+
+                                <br />
+                                <br />
+
+                                I’ve worked on the donation page, which allows
+                                you support the construction of the new gallery.
+
+                                <br />
+                                <br />
+
+                                I’ve also worked the timeline page, which shows
+                                you the current state of the construction.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="project-list__item">
+                        <div class="project">
+                            <video
+                                loop
+                                autoplay
+                                class="project__video"
+                                src="media/beng.mp4"
+                            ></video>
+                            <h1 class="project__video--title">
+                                Tilt
+                            </h1>
+                            <div class="project__video--overlay"></div>
+                            <p class="project__description">
+                                I worked on a project for the Insitute for Sound
+                                and Vision, called Tilt.
+
+                                <br />
+                                <br />
+
+                                The idea behind this project was to be able to
+                                showcase news in a new way. It has an app-like
+                                interface which allows users (Web & Mobile) to
+                                navigate through stories, featuring
+                                audio/visuals and text.
+
+                                <br />
+                                <br />
+
+                                I've mainly contributed to making the 'cards'
+                                customizable, allowing the creator to freely
+                                choose how they want a card to look (example:
+                                Text on top, text bottom, countless of
+                                combinations).
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="project-list__item">
+                        <div class="project">
+                            <video
+                                loop
+                                autoplay
+                                class="project__video"
+                                src="media/boijmans.mp4"
+                            ></video>
+                            <h1 class="project__video--title">Boijmans</h1>
+                            <div class="project__video--overlay"></div>
+                            <p class="project__description">
+                                Boijmans is a visual arts museum based in
+                                Rotterdam.
+
+                                <br />
+                                <br />
+
+                                I’ve worked on the donation page, which allows
+                                you support the construction of the new gallery.
+
+                                <br />
+                                <br />
+
+                                I’ve also worked the timeline page, which shows
+                                you the current state of the construction.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="project-list__item">
+                        <div class="project">
+                            <video
+                                loop
+                                autoplay
+                                class="project__video"
+                                src="media/boijmans.mp4"
+                            ></video>
+                            <h1 class="project__video--title">Boijmans</h1>
+                            <div class="project__video--overlay"></div>
+                            <p class="project__description">
+                                Boijmans is a visual arts museum based in
+                                Rotterdam.
+
+                                <br />
+                                <br />
+
+                                I’ve worked on the donation page, which allows
+                                you support the construction of the new gallery.
+
+                                <br />
+                                <br />
+
+                                I’ve also worked the timeline page, which shows
+                                you the current state of the construction.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script type="module" src="app.js"></script>
+    </body>
+</html>
