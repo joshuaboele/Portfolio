@@ -105,7 +105,7 @@ button {
 @media (min-width: 1200px) {
   .project__video {
     width: 100%;
-    height: 360px;
+    height: 500px;
   }
 }
 .project__button {
@@ -142,7 +142,7 @@ button {
 }
 @media (min-width: 1200px) {
   .project__video--overlay {
-    height: 360px;
+    height: 500px;
   }
 }
 .project__description {
@@ -197,18 +197,26 @@ button {
     font-weight: 700;
   }
 }
+.project-navigation__item {
+  margin-bottom: 15px;
+}
+.project-navigation__item:last-child {
+  margin-bottom: 0;
+}
 .project-navigation__button {
   color: #77ffdd;
   padding: 0;
   border: 0;
   background: none;
-  font-weight: 300;
-  font-size: 2.2rem;
-  line-height: 2.6rem;
+  font-weight: 600;
+  font-size: 2rem;
+  background-image: linear-gradient(180deg, transparent 90%, #77ffdd 0);
+  background-repeat: no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.4s ease;
 }
 .project-navigation__button:hover {
-  color: #3db496;
-  cursor: pointer;
+  background-size: 100% 100%;
 }
 
 .is-visible {

@@ -3,7 +3,7 @@ const data = [
         id: 1,
         title: "Boijmans",
         description:
-            "Boijmans is a visual arts museum based in Rotterdam.</br></br>I've worked on the donation page, which allows you support the construction of the new gallery</br></br>I’ve also worked the timeline page, which shows you the current state of the construction.",
+            "Boijmans is a visual arts museum based in Rotterdam.</br></br>I've worked on the donation page, which allows you support the construction of the new gallery</br></br>",
         videoSrc: "media/boijmans.mp4",
     },
     {

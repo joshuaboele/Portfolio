@@ -14,11 +14,11 @@ projects.forEach((project) => {
 
     toggleDescription.addEventListener("click", function () {
         additionalInfo.classList.toggle("is-visible");
-        // if (additionalInfo.classList.contains("is-visible")) {
-        //     toggleDescription.textContent = "Minimize";
-        // } else {
-        //     toggleDescription.textContent = "Expand description";
-        // }
+        if (additionalInfo.classList.contains("is-visible")) {
+            toggleDescription.textContent = "Minimize";
+        } else {
+            toggleDescription.textContent = "Read more";
+        }
     });
 });
 
