@@ -2,6 +2,11 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background: #001f3f;
   font-family: "Lato", sans-serif;
@@ -113,10 +118,28 @@ button {
   font-style: normal;
   border: 2px solid #77ffdd;
   padding: 8px 12px;
+  margin-right: 5px;
 }
 @media (min-width: 992px) {
   .project__button {
     display: none;
+  }
+}
+.project__button--desktop {
+  display: none;
+}
+@media (min-width: 992px) {
+  .project__button--desktop {
+    display: block;
+    font-size: 3rem;
+    font-style: normal;
+    border: 2px solid #77ffdd;
+    padding: 20px 24px;
+  }
+  .project__button--desktop:hover {
+    background: #77ffdd;
+    color: #001f3f;
+    cursor: pointer;
   }
 }
 .project__video--title {
@@ -180,6 +203,11 @@ button {
   color: inherit;
   font-weight: 600;
 }
+@media (min-width: 992px) {
+  .navigation__item a {
+    font-size: 2.4rem;
+  }
+}
 
 .project-navigation {
   display: none;
@@ -189,27 +217,29 @@ button {
     display: block;
     list-style-type: none;
     position: sticky;
-    top: 42%;
-    margin-left: -25%;
+    top: 24%;
+    margin-left: 100%;
+    margin-right: -25%;
   }
   .project-navigation__header {
-    font-size: 3rem;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 2rem;
   }
 }
 .project-navigation__item {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 .project-navigation__item:last-child {
   margin-bottom: 0;
 }
 .project-navigation__button {
-  color: #77ffdd;
+  color: #3db496;
+  line-height: 22px;
   padding: 0;
   border: 0;
   background: none;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
   background-image: linear-gradient(180deg, transparent 90%, #77ffdd 0);
   background-repeat: no-repeat;
   background-size: 0 100%;
@@ -217,6 +247,7 @@ button {
 }
 .project-navigation__button:hover {
   background-size: 100% 100%;
+  color: #77ffdd;
 }
 
 .is-visible {
