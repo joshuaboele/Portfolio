@@ -4,6 +4,7 @@ import { data } from "./data.js";
 
 const title = document.querySelector(".project__video--title");
 const description = document.querySelector(".project__description");
+const more = document.querySelector(".project__more");
 const video = document.querySelector(".project__video");
 const navigateButton = document.querySelectorAll(".project-navigation__button");
 const projects = document.querySelectorAll(".project");
@@ -32,6 +33,7 @@ navigateButton.forEach((el) => {
         title.innerHTML = data[index].title;
         video.src = data[index].videoSrc;
         description.innerHTML = data[index].description;
+        more.innerHTML = data[index].more;
     });
 });
 
