@@ -97,7 +97,7 @@ button {
 
     p {
         font-size: 1.8rem;
-        line-height: 2rem;
+        line-height: 2.6rem;
         font-family: Lato;
         font-style: normal;
         font-weight: 600;
@@ -124,17 +124,10 @@ button {
         font-style: normal;
         border: 2px solid $color--cyan;
         padding: 8px 12px;
-        margin-right: 5px;
+        margin: 15px 5px 0 0;
 
         @include responsive("medium") {
-            display: none;
-        }
-    }
-
-    &__button--desktop {
-        display: none;
-
-        @include responsive("medium") {
+            margin-top: 30px;
             display: block;
             font-size: 3rem;
             font-style: normal;
@@ -198,10 +191,6 @@ button {
     ol {
         display: flex;
         justify-content: space-evenly;
-
-        @include responsive("medium") {
-            justify-content: space-evenly;
-        }
     }
     &__item {
         a {
@@ -223,7 +212,7 @@ button {
         display: block;
         list-style-type: none;
         position: sticky;
-        top: 24%;
+        top: 25.5%;
         margin-left: 100%;
         margin-right: -25%;
 

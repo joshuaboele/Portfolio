@@ -9,19 +9,19 @@ const video = document.querySelector(".project__video");
 const navigateButton = document.querySelectorAll(".project-navigation__button");
 const projects = document.querySelectorAll(".project");
 
-projects.forEach((project) => {
-    const toggleDescription = project.querySelector(".project__button");
-    const additionalInfo = project.querySelector(".project__more");
+// projects.forEach((project) => {
+//     const toggleDescription = project.querySelector(".project__button");
+//     const additionalInfo = project.querySelector(".project__more");
 
-    toggleDescription.addEventListener("click", function () {
-        additionalInfo.classList.toggle("is-visible");
-        if (additionalInfo.classList.contains("is-visible")) {
-            toggleDescription.textContent = "Minimize";
-        } else {
-            toggleDescription.textContent = "Read more";
-        }
-    });
-});
+//     toggleDescription.addEventListener("click", function () {
+//         additionalInfo.classList.toggle("is-visible");
+//         if (additionalInfo.classList.contains("is-visible")) {
+//             toggleDescription.textContent = "Minimize";
+//         } else {
+//             toggleDescription.textContent = "Read more";
+//         }
+//     });
+// });
 
 // default value
 
