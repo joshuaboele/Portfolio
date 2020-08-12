@@ -5,6 +5,7 @@ const data = [
         description:
             "Boijmans is a visual arts museum based in Rotterdam.</br></br>I collaborated on the Depot page which showcases the progress of the first art storage facility in the world that offers access to a museum’s complete collection.</br></br> My main task was to develop the timeline items.</br></br> I've also created the donation page, which allows people to support the construction of the Depot. ",
         videoSrc: "media/boijmans.mp4",
+        url: "https:/www.boijmans.nl",
     },
     {
         id: 2,
@@ -24,15 +25,16 @@ const data = [
         id: 4,
         title: "HRO",
         description:
-            "My first ever project, a good friend of mine was HRO's student of the year and gave me an opportunity to help out with the project as an introduction to web development. Mainly did the UI.",
+            "My first ever project, a good friend of mine was HRO's student of the year and gave me the opportunity to help out with the Hogeschool's digital position paper.<br><br>Being able to help out on this project was my first real introduction to web development / front-end.",
         videoSrc: "media/hro.mp4",
     },
     {
         id: 5,
         title: "SentOne",
         description:
-            "SentOne is a company that specialises into ground works such as soundwalls, golfcourses and other projects. I worked on this website during my Internship, the goal was to provide a clear impression and an easier way to read upon their specialism and services.",
-        videoSrc: "#",
+            "SentOne is a company that specialises into ground works such as soundwalls, golfcourses and other projects. <br><br> I worked on this website during my internship, the goal was to provide a clear first impression and an easier way to read about their services.",
+        videoSrc: "media/sentone.mp4",
+        url: "https://www.sentone.surge.sh",
     },
 ];
 
