@@ -19,6 +19,5 @@ navigateButton.forEach((el) => {
         video.src = data[index].videoSrc;
         description.innerHTML = data[index].description;
         link.href = data[index].url;
-        console.log(link);
     });
 });
