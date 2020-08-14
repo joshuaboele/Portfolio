@@ -1,0 +1,57 @@
+html,
+hr {
+    font-size: 62.5%;
+    color: #77ffdd;
+    background: #001f3f;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    /* px fallback */
+    font-size: 1.4rem;
+    /* default font-size for document */
+}
+
+a {
+    font-weight: 600;
+    color: #77ffdd;
+}
+
+ul {
+    padding: 0 15px;
+}
+
+li {
+    padding: 2px 0;
+}
+
+strong {
+    font-size: 2rem;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact__info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.experience__title {
+    font-weight: 700;
+}
+.experience__role {
+    padding-bottom: 10px;
+}
+
+.education__paragraph {
+    padding: 10px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
