@@ -1,7 +1,6 @@
 import { data } from "./data.js";
 
 // dom elements
-
 const title = document.querySelector(".project__video--title");
 const description = document.querySelector(".project__description");
 const video = document.querySelector(".project__video");
@@ -19,5 +18,6 @@ navigateButton.forEach((el) => {
         video.src = data[index].videoSrc;
         description.innerHTML = data[index].description;
         link.href = data[index].url;
+        window.scrollTo(0, 0);
     });
 });
