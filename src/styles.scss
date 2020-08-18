@@ -47,18 +47,6 @@ button {
     }
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-
-    @include responsive("medium") {
-        padding: 40px;
-        font-size: 3.2rem;
-        font-weight: 900;
-        line-height: 3.8rem;
-    }
-}
-
 .content {
     margin: 0 auto;
     @include responsive("large") {
@@ -163,7 +151,7 @@ button {
         top: 0;
         left: 0;
         background: #000;
-        opacity: 0.4;
+        opacity: 0.2;
         height: 180px;
         width: 100%;
 
@@ -216,6 +204,7 @@ button {
 
 .project-navigation {
     display: none;
+    padding-left: 35px;
 
     @include responsive("large") {
         display: block;
@@ -247,11 +236,7 @@ button {
         background: none;
         font-weight: 400;
         font-size: 1.6rem;
-        background-image: linear-gradient(
-            180deg,
-            transparent 90%,
-            $color--cyan 0
-        );
+        background-image: linear-gradient(180deg, transparent 90%, $color--cyan 0);
         background-repeat: no-repeat;
         background-size: 0 100%;
         transition: background-size 0.4s ease;
