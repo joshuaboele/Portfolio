@@ -19,7 +19,7 @@ const data = [
         id: 3,
         title: "Sweet & Sunny",
         description:
-            "Work on making multiple seasonal websites for The Greenery, these projects are made for seasonal product promotion.</br></br> Projects are made with blade templates and a headless wordpress setup, ES6 and SASS for the interactivity within the pages, like the sliders.</br></br> Great fun to work on these projects, since they're so colourful and quick to make.</br></br> Links: Sweet & Sunny, Sweet Sensation, Tomatenzwerge",
+            'Work on making multiple seasonal websites for The Greenery, these projects are made for seasonal product promotion.</br></br> Projects are made with blade templates and a headless wordpress setup, ES6 and SASS for the interactivity within the pages, like the sliders.</br></br> Great fun to work on these projects, since they\'re so colourful and quick to make.</br></br> <a class="project-list__link" href="https://www.sweetandsunny.com/">Sweet & Sunny</a>, <a class="project-list__link" href="https://www.sweet-sensation.eu/nl">Sweet Sensation</a>, <a class="project-list__link" href="https://www.tomatenzwerge.de/">Tomatenzwerge</a>',
         videoSrc: "https://res.cloudinary.com/joshuaboele/video/upload/f_auto,q_auto/v1597351861/Portfolio/sweet.mp4",
         url: "https://www.sweetandsunny.com/",
     },

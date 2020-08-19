@@ -78,6 +78,12 @@ button {
             }
         }
     }
+    &__link {
+        text-decoration: underline;
+        &:hover {
+            color: $color--cyan-hover;
+        }
+    }
 }
 
 .project {

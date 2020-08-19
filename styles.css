@@ -72,6 +72,12 @@ button {
     display: none;
   }
 }
+.project-list__link {
+  text-decoration: underline;
+}
+.project-list__link:hover {
+  color: #3db496;
+}
 
 .project {
   position: relative;
