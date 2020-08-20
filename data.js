@@ -3,7 +3,7 @@ const data = [
         id: 1,
         title: "Boijmans",
         description:
-            "Boijmans is a visual arts museum based in Rotterdam.</br></br>I collaborated on the Depot page which showcases the progress of the first art storage facility in the world that offers access to a museum’s complete collection.</br></br> My main task was to develop the timeline items.</br></br> I've also created the donation page, which allows people to support the construction of the Depot. ",
+            "Boijmans is a visual arts museum based in Rotterdam.</br></br>During my time at IN10, I worked on the Depot page which showcases the progress of the first art storage facility in the world that offers access to a museum’s complete collection.</br></br> My main task was to develop the timeline items.</br></br> I've also worked on the donation page, which allows people to support the construction of the Depot. ",
         videoSrc: "https://res.cloudinary.com/joshuaboele/video/upload/f_auto,q_auto/v1597351860/Portfolio/boijmans.mp4",
         url: "https://www.boijmans.nl/",
     },
@@ -11,7 +11,7 @@ const data = [
         id: 2,
         title: "Tilt",
         description:
-            "Tilt is a new-media platform of the Insititute for Sound and Vision.</br></br> The platform's purpose is to inspire readers through stories that share a connection between humans, media and community.</br></br> I worked on the front-end logic and styling of the card customisation, allowing editors to customize their stories to their needs.<br><br> An example of this customisation is that it allows editors to combine a wide range of UI combinations.  ",
+            "Tilt is a new-media platform of the Insititute for Sound and Vision.</br></br>The platform's purpose is to inspire readers through stories that share a connection between humans, media and community.</br></br>During my time at IN10, I worked with the team on the front-end logic and styling of the card customisation, allowing editors to customize their stories to their needs.<br><br> An example of this customisation is that it allows editors to combine a wide range of UI combinations.  ",
         videoSrc: "https://res.cloudinary.com/joshuaboele/video/upload/f_auto,q_auto/v1597351858/Portfolio/beng2.mp4",
         url: "https://www.beeldengeluid.nl/tilt",
     },
@@ -19,7 +19,7 @@ const data = [
         id: 3,
         title: "Sweet & Sunny",
         description:
-            'Work on making multiple seasonal websites for The Greenery, these projects are made for seasonal product promotion.</br></br> Projects are made with blade templates and a headless wordpress setup, ES6 and SASS for the interactivity within the pages, like the sliders.</br></br> Great fun to work on these projects, since they\'re so colourful and quick to make.</br></br> <a class="project-list__link" href="https://www.sweetandsunny.com/">Sweet & Sunny</a>, <a class="project-list__link" href="https://www.sweet-sensation.eu/nl">Sweet Sensation</a>, <a class="project-list__link" href="https://www.tomatenzwerge.de/">Tomatenzwerge</a>',
+            'At IN10 I worked on making multiple seasonal websites for The Greenery, these projects are made for seasonal product promotion.</br></br> Projects are made with blade templates and a headless wordpress setup, ES6 and SASS for the interactivity within the pages, like the sliders.</br></br> Great fun to work on these projects, since they\'re so colourful and quick to make.</br></br> <a class="project-list__link" href="https://www.sweetandsunny.com/">Sweet & Sunny</a>, <a class="project-list__link" href="https://www.sweet-sensation.eu/nl">Sweet Sensation</a>, <a class="project-list__link" href="https://www.tomatenzwerge.de/">Tomatenzwerge</a>',
         videoSrc: "https://res.cloudinary.com/joshuaboele/video/upload/f_auto,q_auto/v1597351861/Portfolio/sweet.mp4",
         url: "https://www.sweetandsunny.com/",
     },
