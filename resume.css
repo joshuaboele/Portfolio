@@ -1,8 +1,8 @@
 html,
 hr {
     font-size: 62.5%;
-    color: #77ffdd;
-    background: #001f3f;
+    color: black;
+    background: white;
 }
 
 body {
@@ -10,13 +10,13 @@ body {
     font-family: "Lato", sans-serif;
     font-size: 14px;
     /* px fallback */
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     /* default font-size for document */
 }
 
 a {
     font-weight: 600;
-    color: #77ffdd;
+    color: black;
 }
 
 ul {
@@ -32,7 +32,7 @@ th {
 }
 
 strong {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .main {
