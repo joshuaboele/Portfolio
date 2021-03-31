@@ -25,6 +25,7 @@ ul {
 
 li {
     padding: 2px 0;
+    /* list-style-type: none; */
 }
 
 th {
@@ -41,10 +42,44 @@ strong {
     padding: 20px;
 }
 
+.button-container {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: right;
+}
+
+
+.toggle-button {
+    margin-right: 5px;
+    padding: 5px;
+    color: black;
+    border: 2px black solid;
+    background:#fff;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
+
+.skills {
+    margin-bottom: 10px;
+}
+
 .contact__info {
     display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
+    flex-direction: column;
+    list-style-type: none;
+
 }
 
 .experience__title {
